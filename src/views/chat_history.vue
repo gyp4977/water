@@ -10,7 +10,7 @@
       </div>
     </div>
   
-  
+
   
   </template>
   
@@ -28,6 +28,7 @@ export default {
     Navi,
     },
     methods: {
+        //还没写东西，没想好写啥。
     },
 }
 

@@ -78,7 +78,7 @@ export default {
         path: "chat",
         query: {},
       });
-      // const { username, password } = this;
+      // const { username, password } = this; 这一部分是登陆提交，目前直接跳转到chat对话界面。 因为没有登陆在main.js中对目前所有界面都没有进行路由保护。
       //   if (username && password) {
       //   this.$store
       //     .dispatch("login", {

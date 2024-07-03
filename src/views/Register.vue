@@ -74,18 +74,18 @@ export default {
       if(this.password !=this.password2){
           alert ('两次输入的密码不同')
       }else{
-        axios.post('http://localhost:9090/api/auth/register',
-          {
-              username: this.username,
-              password: this.password,
-          }).then(res => {
-             if(res.data.message=="User registered successfully!"){
-              alert("注册成功！")
-             }
-          })
-          .catch(err=>{
-             console.log(err)
-             alert("注册失败！")})
+        // axios.post('http://localhost:9090/api/auth/register', 注册方法
+        //   {
+        //       username: this.username,
+        //       password: this.password,
+        //   }).then(res => {
+        //      if(res.data.message=="User registered successfully!"){
+        //       alert("注册成功！")
+        //      }
+        //   })
+        //   .catch(err=>{
+        //      console.log(err)
+        //      alert("注册失败！")})
       }
 
     },
